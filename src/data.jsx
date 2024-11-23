@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import tina from './assets/tina.jpg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -32,7 +33,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: tina,
     url: 'https://pow-pow.netlify.app/',
     github: 'https://github.com/nickoconnor99',
     title: 'Pow Pow Balloons',
