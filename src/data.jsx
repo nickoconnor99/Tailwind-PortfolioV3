@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import tina from "./assets/tina.jpg";
+import disney from "./assets/disney-trip.jpg";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -35,16 +36,16 @@ export const projects = [
     id: nanoid(),
     img: tina,
     url: "https://pow-pow.netlify.app/",
-    github: "https://github.com/nickoconnor99",
+    github: "https://github.com/nickoconnor99/Tailwind-PortfolioV3",
     title: "Pow Pow Balloons",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: disney,
     url: "https://store-djslxb9nm-nicks-projects-6c9b7ba1.vercel.app/",
-    github: "https://github.com/john-smilga",
-    title: "second project",
+    github: "https://github.com/nickoconnor99/store",
+    title: "Next.js Balloon Store Implementation",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
