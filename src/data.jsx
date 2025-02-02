@@ -45,7 +45,7 @@ export const projects = [
     img: disney,
     url: "https://store-djslxb9nm-nicks-projects-6c9b7ba1.vercel.app/",
     github: "https://github.com/nickoconnor99/store",
-    title: "Next.js Balloon Store Implementation",
+    title: "Balloon Store Implementation with Next.js",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
